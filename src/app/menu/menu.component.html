@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" [routerLink]="'/home'"> <img src="./../../assets/images/logo.PNG" alt="logo do progrAme.se" width="50px" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="'/home'">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="'/sobre-nos'">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="'/contato'">Contato</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="'/produtos'" >Todos os Cursos</a>
+                
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" [routerLink]="'/produtosId'">Buscar Cursos</a>
+                </li>
+            
+        </ul>
+    </div>
+</nav>

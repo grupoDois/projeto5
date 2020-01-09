@@ -1,0 +1,14 @@
+.sobre-nos {
+    height: auto;
+    background-color: #ebcfb8;
+}
+
+.tamanho-foto {
+    width: 150px; 
+    height: 150px;
+}
+
+#nossa-missao {
+    margin: 0px 60px;
+    text-align: center;
+}

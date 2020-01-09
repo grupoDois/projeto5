@@ -1,0 +1,19 @@
+<br>
+<input type="number" placeholder="digite um numero" [(ngModel)]="idProduto">
+<input type="button" (click)="findIdProdutos()" value="botão"> <br><br>
+
+<strong>
+    <h1 class="titulo"> Produtos </h1>
+
+    <div class="search-id">
+        <br>
+        <img src="{{produto.linkfoto}}" width="20%"> <br>
+        Id Produto: {{produto.idProduto}} <br>
+        Titulo: {{produto.titulo}} <br>
+        Detalhes: {{produto.detalhes}} <br>
+        Preço: {{produto.preco}} <br>
+        Qnt em Estoque:{{produto.qtdEstoque}} <br>
+
+    </div>
+
+</strong>

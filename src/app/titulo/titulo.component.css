@@ -1,0 +1,9 @@
+.cabecalho {
+    height: 400px;
+    background-image: url('../../assets/images/img-header.jpg');
+    background-size: cover;
+}
+
+.cabecalho-cor-fonte {
+    color: #000;
+}
